@@ -7,10 +7,10 @@ This folder contains input data for ENSO prediction.
 The datasets used in this study are publicly available:
 
 - Niño-3.4 SST anomaly  
-  https://psl.noaa.gov/data/timeseries/month/DS/Nino34/
+  https://psl.noaa.gov/data/timeseries/month/data/nino34.long.anom.data
 
 - Southern Oscillation Index (SOI)  
-  https://www.bom.gov.au/clim_data/IDCKGSH000/soi_monthly.txt
+  https://www.cpc.ncep.noaa.gov/data/indices/soi
 
 - Warm Water Volume (WWV)  
   https://www.pmel.noaa.gov/tao/wwv/data/wwv.dat
