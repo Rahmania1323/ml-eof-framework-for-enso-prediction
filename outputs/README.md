@@ -8,7 +8,7 @@ This folder contains generated figures and model outputs from the ENSO predictio
 
 ![Figure 1](figure1_workflow.png)
 
-Climate prediction workflow illustrating the hybrid machine-learning–EOF framework for long-lead ENSO forecasting.
+Conceptual workflow of the hybrid ENSO forecasting system. Monthly climate indices (Niño-3.4 SST anomalies, Southern Oscillation Index, and equatorial Pacific warm water volume) are aligned, smoothed, and standardized. Lagged predictors and physically motivated variables (recharge, trend, and seasonal harmonics) are constructed and reduced using empirical orthogonal function (EOF) analysis. The resulting predictors are used to train ridge regression and random forest models whose predictions are combined into a hybrid forecast. Hindcast skill is evaluated using correlation and RMSE relative to persistence, and the trained system generates operational monthly forecasts up to 24 months ahead and derived seasonal outlooks
 
 ---
 
@@ -24,7 +24,7 @@ Comparison between observed Niño-3.4 SST anomalies and hybrid model forecasts f
 
 ![Figure 3](figure3_nino34_forecast_skill.png)
 
-Forecast skill of Niño-3.4 SST anomaly predictions as a function of lead time. Correlation with observations and root-mean-square error (RMSE) are shown for both the hybrid model and a persistence forecast.
+Forecast skill of Niño-3.4 SST anomaly predictions as a function of lead time. Correlation with observations and root-mean-square error (RMSE) are shown for both the hybrid model and a persistence forecast. Correlation measures the ability of the forecast to reproduce the temporal evolution of ENSO variability, while RMSE quantifies the magnitude of forecast errors.
 
 ---
 
@@ -32,7 +32,7 @@ Forecast skill of Niño-3.4 SST anomaly predictions as a function of lead time. 
 
 ![Figure 4](figure4_enso_operational_forecast.png)
 
-Operational forecast of Niño-3.4 SST anomalies for the next 24 months. Error bars represent forecast uncertainty estimated from hindcast RMSE.
+Operational forecast of Niño-3.4 SST anomalies for the next 24 months. Error bars represent forecast uncertainty estimated from hindcast RMSE. The widening uncertainty bounds illustrate increasing forecast uncertainty at longer lead times.
 
 ---
 
@@ -40,7 +40,7 @@ Operational forecast of Niño-3.4 SST anomalies for the next 24 months. Error ba
 
 ![Figure 5](figure5_enso_9season_forecast.png)
 
-Nine-season ENSO forecast derived from the hybrid prediction system. Seasonal averaging reduces short-term variability and highlights the expected ENSO evolution.
+Nine-season ENSO forecast derived from the hybrid prediction system. Error bars represent forecast uncertainty estimated from hindcast RMSE. Seasonal averaging reduces short-term variability and highlights the expected ENSO evolution across overlapping three-month periods.
 
 ---
 
@@ -48,4 +48,4 @@ Nine-season ENSO forecast derived from the hybrid prediction system. Seasonal av
 
 ![Figure 6](figure6_enso_combined_forecast.png)
 
-Combined ENSO forecast visualization including monthly predictions with uncertainty bounds and overlapping seasonal forecasts.
+Combined ENSO forecast visualization. The top panel shows the monthly Niño-3.4 SST anomaly forecast with uncertainty bounds extending 24 months ahead. The bottom panel presents nine overlapping seasonal forecasts derived from the monthly predictions. The initialization month indicates the starting point of the forecast period.
