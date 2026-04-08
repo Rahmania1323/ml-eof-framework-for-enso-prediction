@@ -1,0 +1,17 @@
+## Data Availability
+
+The climate indices used in this study are publicly available:
+
+- Niño-3.4 sea surface temperature (SST) anomaly data:  
+  NOAA Physical Sciences Laboratory  
+  https://psl.noaa.gov/data/timeseries/month/DS/Nino34/
+
+- Southern Oscillation Index (SOI):  
+  Australian Bureau of Meteorology  
+  https://www.bom.gov.au/clim_data/IDCKGSH000/soi_monthly.txt
+
+- Equatorial Pacific Warm Water Volume (WWV):  
+  NOAA Pacific Marine Environmental Laboratory  
+  https://www.pmel.noaa.gov/tao/wwv/data/wwv.dat
+
+Users are encouraged to download the datasets directly from the official sources.
