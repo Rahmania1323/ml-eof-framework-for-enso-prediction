@@ -32,7 +32,7 @@ The climate indices used in this study are publicly available:
 - **Niño-3.4 SST anomalies** – NOAA Physical Sciences Laboratory  
   https://psl.noaa.gov/data/timeseries/month/data/nino34.long.anom.data
 
-- **Southern Oscillation Index (SOI)** – Australian Bureau of Meteorology  
+- **Southern Oscillation Index (SOI)** – NOAA Climate Prediction Center  
   https://www.cpc.ncep.noaa.gov/data/indices/soi
 
 - **Warm Water Volume (WWV)** – NOAA Pacific Marine Environmental Laboratory  
